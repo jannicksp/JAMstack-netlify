@@ -61,8 +61,8 @@ h1{
     transform: translate(-50%, -50%) scale(10);
 }
 .blender {
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   position: fixed;
   border-radius: 50%;
   top: 90%;
@@ -75,8 +75,8 @@ h1{
 }
 .s-module--toggler {
   background: #BEBEBE;
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   position: fixed;
   border-radius: 50%;
   top: 90%;

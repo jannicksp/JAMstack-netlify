@@ -7,8 +7,19 @@
     "name": "Desi Avramovitz",
     "review": "productize virtual markets",
     "starrating": 3,
-    "price": 50.4,
+    "price": 40.4,
     "img": "1.jpg"
+  },
+  {
+    "id": "9d436e98-1dc9-4f21-9587-76d4c0255e332",
+    "color": "Goldenrod",
+    "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
+    "gender": "Male",
+    "name": "rag",
+    "review": "productize virtual markets",
+    "starrating": 3,
+    "price": 50.4,
+    "img": "test.jpg"
   },
   {
     "id": "bfa86b1c-9ebf-4555-987f-7b8bf7d27be7",
