@@ -2,12 +2,12 @@ import Vue from 'vue'
 import Router from 'vue-router'
 import { interopDefault } from './utils'
 
-const _25005377 = () => interopDefault(import('..\\pages\\all.vue' /* webpackChunkName: "pages_all" */))
-const _12deb5ba = () => interopDefault(import('..\\pages\\cart.vue' /* webpackChunkName: "pages_cart" */))
-const _d81545a8 = () => interopDefault(import('..\\pages\\men.vue' /* webpackChunkName: "pages_men" */))
-const _6dee73d4 = () => interopDefault(import('..\\pages\\women.vue' /* webpackChunkName: "pages_women" */))
-const _2e03fc76 = () => interopDefault(import('..\\pages\\product\\_id.vue' /* webpackChunkName: "pages_product__id" */))
-const _0ec40aa8 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
+const _745ca7a4 = () => interopDefault(import('..\\pages\\all.vue' /* webpackChunkName: "pages_all" */))
+const _a1e631a6 = () => interopDefault(import('..\\pages\\cart.vue' /* webpackChunkName: "pages_cart" */))
+const _395c9d4e = () => interopDefault(import('..\\pages\\men.vue' /* webpackChunkName: "pages_men" */))
+const _578670c1 = () => interopDefault(import('..\\pages\\women.vue' /* webpackChunkName: "pages_women" */))
+const _2b291038 = () => interopDefault(import('..\\pages\\product\\_id.vue' /* webpackChunkName: "pages_product__id" */))
+const _0f47f0d6 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages_index" */))
 
 Vue.use(Router)
 
@@ -85,27 +85,27 @@ export function createRouter() {
 
     routes: [{
       path: "/all",
-      component: _25005377,
+      component: _745ca7a4,
       name: "all"
     }, {
       path: "/cart",
-      component: _12deb5ba,
+      component: _a1e631a6,
       name: "cart"
     }, {
       path: "/men",
-      component: _d81545a8,
+      component: _395c9d4e,
       name: "men"
     }, {
       path: "/women",
-      component: _6dee73d4,
+      component: _578670c1,
       name: "women"
     }, {
       path: "/product/:id?",
-      component: _2e03fc76,
+      component: _2b291038,
       name: "product-id"
     }, {
       path: "/",
-      component: _0ec40aa8,
+      component: _0f47f0d6,
       name: "index"
     }],
 

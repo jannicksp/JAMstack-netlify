@@ -23,8 +23,7 @@ export default {
 <style scoped>
 body {
   background-color: #FFF;
-  border: 10px solid white;
-  min-height: 100vh;
+    min-height: 100vh;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;

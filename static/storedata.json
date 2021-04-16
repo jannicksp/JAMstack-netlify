@@ -16,7 +16,7 @@
     "description": "Mauris enim leo, rhoncus sed, vestibulum sit amet, cursus id, turpis. Integer aliquet, massa id lobortis convallis, tortor risus dapibus augue, vel accumsan tellus nisi eu orci. Mauris lacinia sapien quis libero.",
     "gender": "Male",
     "name": "rag",
-    "review": "productize virtual markets",
+    "review": "productize virtual markets", 
     "starrating": 3,
     "price": 50.4,
     "img": "test.jpg"
