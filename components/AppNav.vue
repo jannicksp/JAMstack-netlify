@@ -1,7 +1,7 @@
 <template>
   <header>
     <nav :class="{'darkmode-nav': !darkmode}">
-      <nuxt-link exact to="/"><h1>Modern home</h1></nuxt-link>
+      <nuxt-link exact to="/"><img class="logo" src="/logo.png"></nuxt-link>
       <ul>
         <li>
           <nuxt-link exact to="/">Home</nuxt-link>
@@ -46,7 +46,10 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+.logo{
+  width: 30px;
+  height: 30px;
+}
 .caart{
   display: flex;
 }
