@@ -9,10 +9,10 @@
       <slot name="new"></slot>
     </div>
     <div class="sale">
-      <slot name="sale">Matcha Te</slot>
+      <slot v-if="jannicksCave" name="sale">{{jannicksCave.acf.headertitle}}</slot>
     </div>
     <div class="collection">
-      <slot name="collection">Stilrent</slot>
+      <slot v-if="jannicksCave" name="collection">{{jannicksCave.acf.headerdescription}}</slot>
     </div>
     <div class="details">
       <slot name="details"></slot>
@@ -21,7 +21,20 @@
 </template>
 
 <script>
-export default {};
+
+export default {
+
+computed: {
+    jannicksCave() {
+      return this.$store.getters.jannicksCave;
+    }
+  },
+mounted() {
+    this.$store.dispatch("createTestDataIntent");
+
+  },
+  };
+
 </script>
 
 <style lang="scss" scoped>

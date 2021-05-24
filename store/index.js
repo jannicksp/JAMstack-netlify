@@ -3,11 +3,13 @@ import data from "~/static/storedata.json";
 export const state = () => ({
   cartUIStatus: "idle",
   storedata: data,
+  jannicksCave: [],
   cart: [],
   clientSecret: "" // Required to initiate the payment from the client
 });
 
 export const getters = {
+  jannicksCave: state => state.jannicksCave [0],
   featuredProducts: state => state.storedata.slice(0, 3),
   women: state => state.storedata.filter(el => el.gender === "Female"),
   men: state => state.storedata.filter(el => el.gender === "Male"),
@@ -48,6 +50,9 @@ export const mutations = {
    setClientSecret: (state, payload) => {
     state.clientSecret = payload;
    },
+   setjannicksCave: (state, payload) => {
+    state.jannicksCave = payload;
+   },
   addOneToCart: (state, payload) => {
     let itemfound = state.cart.find(el => el.id === payload.id)
     itemfound ? itemfound.quantity++ : state.cart.push(payload)
@@ -84,6 +89,18 @@ export const actions = {
         // This secret will be used to finalize the payment from the client
         commit("setClientSecret", result.data.clientSecret);
       }
+    } catch (e) {
+      console.log("error", e);
+    }
+  },
+  async createTestDataIntent({ getters, commit }) {
+    try {
+      // Create a PaymentIntent with the information about the order
+      const result = await axios.get(
+        "https://jannicksp.dk/wp/wp-json/wp/v2/posts?_embed"
+      );
+      console.log(result.data);
+      commit("setjannicksCave", result.data);
     } catch (e) {
       console.log("error", e);
     }

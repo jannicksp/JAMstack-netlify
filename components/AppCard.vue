@@ -70,6 +70,7 @@ export default {
   mounted() {
     // create a PaymentIntent on Stripe with order information
     this.$store.dispatch("createPaymentIntent");
+
   },
   data() {
     return {
