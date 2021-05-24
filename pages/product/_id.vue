@@ -111,6 +111,11 @@ export default {
   display: grid;
   justify-content: space-around;
   grid-template-columns: 1fr 2fr;
+
+  img{
+    width: 100%;
+
+  }
 }
 
 .product-options {

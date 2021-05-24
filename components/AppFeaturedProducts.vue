@@ -91,6 +91,7 @@ h2 span:after {
 
   img {
     width: 100%;
+    height: 190px;
   }
 }
 
@@ -108,6 +109,7 @@ h2 span:after {
 
   img {
     width: 100%;
+    height: 190px;
   }
 }
 </style>

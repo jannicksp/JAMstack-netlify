@@ -10,10 +10,10 @@
           <nuxt-link to="/all">All</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/women">Women</nuxt-link>
+          <nuxt-link to="/women">Accessories</nuxt-link>
         </li>
         <li>
-          <nuxt-link to="/men">Men</nuxt-link>
+          <nuxt-link to="/men">Tea</nuxt-link>
         </li>
       </ul>
       <div class="caart">
