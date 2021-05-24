@@ -4,7 +4,7 @@
     <app-sales-boxes />
     <app-textlockup>
       <template v-slot:img>
-        <img  src="/webp/pipe.webp" onerror="this.onerror=null; this.src='/pipe.jpg'" alt="bag" />
+        <img  src="/Test_matcha_te_drik.jpg" />
       </template>
       <template v-slot:new></template>
       <template v-slot:sale>Storewide Sale</template>

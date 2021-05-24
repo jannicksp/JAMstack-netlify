@@ -1,0 +1,38 @@
+[
+  {
+    "name": "all",
+    "path": "/all",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Code-Projects\\\\Skole\\\\Selvstændigt arbejde\\\\Matcha Copenhagen\\\\JAMstack-netlify\\\\pages\\\\all.vue",
+    "chunkName": "pages/all"
+  },
+  {
+    "name": "cart",
+    "path": "/cart",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Code-Projects\\\\Skole\\\\Selvstændigt arbejde\\\\Matcha Copenhagen\\\\JAMstack-netlify\\\\pages\\\\cart.vue",
+    "chunkName": "pages/cart"
+  },
+  {
+    "name": "men",
+    "path": "/men",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Code-Projects\\\\Skole\\\\Selvstændigt arbejde\\\\Matcha Copenhagen\\\\JAMstack-netlify\\\\pages\\\\men.vue",
+    "chunkName": "pages/men"
+  },
+  {
+    "name": "women",
+    "path": "/women",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Code-Projects\\\\Skole\\\\Selvstændigt arbejde\\\\Matcha Copenhagen\\\\JAMstack-netlify\\\\pages\\\\women.vue",
+    "chunkName": "pages/women"
+  },
+  {
+    "name": "product-id",
+    "path": "/product/:id?",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Code-Projects\\\\Skole\\\\Selvstændigt arbejde\\\\Matcha Copenhagen\\\\JAMstack-netlify\\\\pages\\\\product\\\\_id.vue",
+    "chunkName": "pages/product/_id"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\User\\\\Documents\\\\Code-Projects\\\\Skole\\\\Selvstændigt arbejde\\\\Matcha Copenhagen\\\\JAMstack-netlify\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]

@@ -2,14 +2,14 @@
   <div class="textlockup">
     <div class="img">
       <slot name="img">
-        <img src="/stativ.jpg" alt="shoe" />
+        <img src="/matcha-te-2.jpg" alt="shoe" />
       </slot>
     </div>
     <div class="new">
       <slot name="new"></slot>
     </div>
     <div class="sale">
-      <slot name="sale">Moderne hjem</slot>
+      <slot name="sale">Matcha Te</slot>
     </div>
     <div class="collection">
       <slot name="collection">Stilrent</slot>
@@ -50,6 +50,7 @@ export default {};
     font-size: 8.5vmin;
     font-family: "PT Serif", -apple-system, BlinkMacSystemFont, "Segoe UI",
       Roboto, "Helvetica Neue", Arial, sans-serif;
+      color:white;
   }
   .details {
     grid-area: 4 / 2 / 5 / 4;
