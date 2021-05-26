@@ -7,9 +7,9 @@
         <img  src="/Test_matcha_te_drik.jpg" />
       </template>
       <template v-slot:new></template>
-      <template v-slot:sale>Storewide Sale</template>
-      <template v-slot:collection>Summer</template>
-      <template v-slot:details>All accessories</template>
+      <template v-slot:sale>Newly</template>
+      <template v-slot:collection>Opened</template>
+      <template v-slot:details>All Tee Shop</template>
     </app-textlockup>
     <app-featured-products />
   </div>

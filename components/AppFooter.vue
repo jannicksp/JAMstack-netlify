@@ -1,8 +1,8 @@
 <template>
   <footer>
     <section class="callout">
-      <h2>"The surprising styles of Skyline Ivy are advanced for all seasons."</h2>
-      <p>Hansel Andersen</p>
+      <h2>Try our tee today</h2>
+      <p>Matcha Copenhagen</p>
     </section>
     <app-footer-links />
   </footer>
