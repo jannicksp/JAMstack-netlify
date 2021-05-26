@@ -1,7 +1,7 @@
 <template>
   <footer>
     <section class="callout">
-      <h2>Try our tee today</h2>
+      <h2>Try our tea today</h2>
       <p>Matcha Copenhagen</p>
     </section>
     <app-footer-links />

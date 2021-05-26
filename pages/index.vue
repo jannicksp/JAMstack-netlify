@@ -9,7 +9,7 @@
       <template v-slot:new></template>
       <template v-slot:sale>Newly</template>
       <template v-slot:collection>Opened</template>
-      <template v-slot:details>All Tee Shop</template>
+      <template v-slot:details>Tea Shop</template>
     </app-textlockup>
     <app-featured-products />
   </div>
